@@ -1,0 +1,15 @@
+# Spotify API Credentials
+client_id: ""
+client_secret: ""
+
+# Server Configuration
+port: 8888
+redirect_uri: "http://127.0.0.1:8888/callback"
+scopes: "user-library-read"
+
+# Backup Settings
+backups_location: "./backups"
+auto_backup_interval: 1  # Hours between backups
+
+# Rate Limiting
+requests_per_second: 8
